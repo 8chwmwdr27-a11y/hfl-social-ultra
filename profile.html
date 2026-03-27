@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HFL Social Ultra - פרופיל</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="profile-section">
+  <div class="profile-header">
+    <img id="avatar" src="assets/default-avatar.png" alt="Avatar">
+    <h2 id="user-name"></h2>
+    <p id="bio"></p>
+    <button id="logout-btn">יציאה</button>
+  </div>
+
+  <div class="new-post">
+    <textarea id="post-text" placeholder="כתוב משהו..."></textarea>
+    <input type="file" id="post-media" accept="image/*,video/*">
+    <button id="post-btn">פרסם</button>
+  </div>
+
+  <div class="search-user">
+    <input type="text" id="search-input" placeholder="חפש משתמשים...">
+    <div id="search-results"></div>
+  </div>
+
+  <div id="feed"></div>
+</div>
+<script type="module" src="profile.js"></script>
+</body>
+</html>
